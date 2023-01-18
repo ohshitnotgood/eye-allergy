@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58ECF8572978598B00179543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECF8562978598B00179543 /* AppDelegate.swift */; };
+		58ECF8592978598B00179543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECF8582978598B00179543 /* ViewController.swift */; };
+		58ECF85B2978598C00179543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ECF85A2978598C00179543 /* Assets.xcassets */; };
+		58ECF85E2978598C00179543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ECF85C2978598C00179543 /* Main.storyboard */; };
+		58ECF8692978598C00179543 /* Eye_Health_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECF8682978598C00179543 /* Eye_Health_TrackerTests.swift */; };
+		58ECF8732978598C00179543 /* Eye_Health_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECF8722978598C00179543 /* Eye_Health_TrackerUITests.swift */; };
+		58ECF8752978598C00179543 /* Eye_Health_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECF8742978598C00179543 /* Eye_Health_TrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58ECF8652978598C00179543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58ECF84B2978598B00179543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECF8522978598B00179543;
+			remoteInfo = "Eye Health Tracker";
+		};
+		58ECF86F2978598C00179543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58ECF84B2978598B00179543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECF8522978598B00179543;
+			remoteInfo = "Eye Health Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58ECF8532978598B00179543 /* Eye Health Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye Health Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ECF8562978598B00179543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58ECF8582978598B00179543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58ECF85A2978598C00179543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58ECF85D2978598C00179543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58ECF85F2978598C00179543 /* Eye_Health_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eye_Health_Tracker.entitlements; sourceTree = "<group>"; };
+		58ECF8642978598C00179543 /* Eye Health TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye Health TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ECF8682978598C00179543 /* Eye_Health_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_Health_TrackerTests.swift; sourceTree = "<group>"; };
+		58ECF86E2978598C00179543 /* Eye Health TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye Health TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ECF8722978598C00179543 /* Eye_Health_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_Health_TrackerUITests.swift; sourceTree = "<group>"; };
+		58ECF8742978598C00179543 /* Eye_Health_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_Health_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58ECF8502978598B00179543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECF8612978598C00179543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECF86B2978598C00179543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58ECF84A2978598B00179543 = {
+			isa = PBXGroup;
+			children = (
+				58ECF8552978598B00179543 /* Eye Health Tracker */,
+				58ECF8672978598C00179543 /* Eye Health TrackerTests */,
+				58ECF8712978598C00179543 /* Eye Health TrackerUITests */,
+				58ECF8542978598B00179543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58ECF8542978598B00179543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58ECF8532978598B00179543 /* Eye Health Tracker.app */,
+				58ECF8642978598C00179543 /* Eye Health TrackerTests.xctest */,
+				58ECF86E2978598C00179543 /* Eye Health TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58ECF8552978598B00179543 /* Eye Health Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				58ECF8562978598B00179543 /* AppDelegate.swift */,
+				58ECF8582978598B00179543 /* ViewController.swift */,
+				58ECF85A2978598C00179543 /* Assets.xcassets */,
+				58ECF85C2978598C00179543 /* Main.storyboard */,
+				58ECF85F2978598C00179543 /* Eye_Health_Tracker.entitlements */,
+			);
+			path = "Eye Health Tracker";
+			sourceTree = "<group>";
+		};
+		58ECF8672978598C00179543 /* Eye Health TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				58ECF8682978598C00179543 /* Eye_Health_TrackerTests.swift */,
+			);
+			path = "Eye Health TrackerTests";
+			sourceTree = "<group>";
+		};
+		58ECF8712978598C00179543 /* Eye Health TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58ECF8722978598C00179543 /* Eye_Health_TrackerUITests.swift */,
+				58ECF8742978598C00179543 /* Eye_Health_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Eye Health TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58ECF8522978598B00179543 /* Eye Health Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ECF8782978598C00179543 /* Build configuration list for PBXNativeTarget "Eye Health Tracker" */;
+			buildPhases = (
+				58ECF84F2978598B00179543 /* Sources */,
+				58ECF8502978598B00179543 /* Frameworks */,
+				58ECF8512978598B00179543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eye Health Tracker";
+			productName = "Eye Health Tracker";
+			productReference = 58ECF8532978598B00179543 /* Eye Health Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58ECF8632978598C00179543 /* Eye Health TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ECF87B2978598C00179543 /* Build configuration list for PBXNativeTarget "Eye Health TrackerTests" */;
+			buildPhases = (
+				58ECF8602978598C00179543 /* Sources */,
+				58ECF8612978598C00179543 /* Frameworks */,
+				58ECF8622978598C00179543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58ECF8662978598C00179543 /* PBXTargetDependency */,
+			);
+			name = "Eye Health TrackerTests";
+			productName = "Eye Health TrackerTests";
+			productReference = 58ECF8642978598C00179543 /* Eye Health TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58ECF86D2978598C00179543 /* Eye Health TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ECF87E2978598C00179543 /* Build configuration list for PBXNativeTarget "Eye Health TrackerUITests" */;
+			buildPhases = (
+				58ECF86A2978598C00179543 /* Sources */,
+				58ECF86B2978598C00179543 /* Frameworks */,
+				58ECF86C2978598C00179543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58ECF8702978598C00179543 /* PBXTargetDependency */,
+			);
+			name = "Eye Health TrackerUITests";
+			productName = "Eye Health TrackerUITests";
+			productReference = 58ECF86E2978598C00179543 /* Eye Health TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58ECF84B2978598B00179543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					58ECF8522978598B00179543 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					58ECF8632978598C00179543 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 58ECF8522978598B00179543;
+					};
+					58ECF86D2978598C00179543 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 58ECF8522978598B00179543;
+					};
+				};
+			};
+			buildConfigurationList = 58ECF84E2978598B00179543 /* Build configuration list for PBXProject "Eye Health Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58ECF84A2978598B00179543;
+			productRefGroup = 58ECF8542978598B00179543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58ECF8522978598B00179543 /* Eye Health Tracker */,
+				58ECF8632978598C00179543 /* Eye Health TrackerTests */,
+				58ECF86D2978598C00179543 /* Eye Health TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58ECF8512978598B00179543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECF85B2978598C00179543 /* Assets.xcassets in Resources */,
+				58ECF85E2978598C00179543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECF8622978598C00179543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECF86C2978598C00179543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58ECF84F2978598B00179543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECF8592978598B00179543 /* ViewController.swift in Sources */,
+				58ECF8572978598B00179543 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECF8602978598C00179543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECF8692978598C00179543 /* Eye_Health_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECF86A2978598C00179543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECF8732978598C00179543 /* Eye_Health_TrackerUITests.swift in Sources */,
+				58ECF8752978598C00179543 /* Eye_Health_TrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58ECF8662978598C00179543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58ECF8522978598B00179543 /* Eye Health Tracker */;
+			targetProxy = 58ECF8652978598C00179543 /* PBXContainerItemProxy */;
+		};
+		58ECF8702978598C00179543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58ECF8522978598B00179543 /* Eye Health Tracker */;
+			targetProxy = 58ECF86F2978598C00179543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58ECF85C2978598C00179543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58ECF85D2978598C00179543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58ECF8762978598C00179543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58ECF8772978598C00179543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58ECF8792978598C00179543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Eye Health Tracker/Eye_Health_Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ohshitnotgood.Eye-Health-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58ECF87A2978598C00179543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Eye Health Tracker/Eye_Health_Tracker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ohshitnotgood.Eye-Health-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		58ECF87C2978598C00179543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ohshitnotgood.Eye-Health-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eye Health Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eye Health Tracker";
+			};
+			name = Debug;
+		};
+		58ECF87D2978598C00179543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ohshitnotgood.Eye-Health-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eye Health Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Eye Health Tracker";
+			};
+			name = Release;
+		};
+		58ECF87F2978598C00179543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ohshitnotgood.Eye-Health-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Eye Health Tracker";
+			};
+			name = Debug;
+		};
+		58ECF8802978598C00179543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU5G7HVPJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ohshitnotgood.Eye-Health-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Eye Health Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58ECF84E2978598B00179543 /* Build configuration list for PBXProject "Eye Health Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECF8762978598C00179543 /* Debug */,
+				58ECF8772978598C00179543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ECF8782978598C00179543 /* Build configuration list for PBXNativeTarget "Eye Health Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECF8792978598C00179543 /* Debug */,
+				58ECF87A2978598C00179543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ECF87B2978598C00179543 /* Build configuration list for PBXNativeTarget "Eye Health TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECF87C2978598C00179543 /* Debug */,
+				58ECF87D2978598C00179543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ECF87E2978598C00179543 /* Build configuration list for PBXNativeTarget "Eye Health TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECF87F2978598C00179543 /* Debug */,
+				58ECF8802978598C00179543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58ECF84B2978598B00179543 /* Project object */;
+}
